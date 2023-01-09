@@ -84,7 +84,7 @@ for employee in employees[0:10]:
     (id_number, first_name, last_name) = employee
     print("{:<3} {:<20} {:<20}".format(id_number, first_name, last_name))
 
-# close the database connection.
+# close the database connection
 cursor.close()
 connection.close()
 print("DB connection is closed")
